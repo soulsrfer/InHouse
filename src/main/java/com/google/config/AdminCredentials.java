@@ -4,7 +4,7 @@ public class AdminCredentials {
 	
 	private  String adminUsername = "admin";
 	
-	private String adminPasswrd = "admin";
+	private String adminPassword = "admin";
 
 	public AdminCredentials() {
 		super();
@@ -14,8 +14,8 @@ public class AdminCredentials {
 		return adminUsername;
 	}
 
-	public String getAdminPasswrd() {
-		return adminPasswrd;
+	public String getAdminPassword() {
+		return adminPassword;
 	}
 	
 	

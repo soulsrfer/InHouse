@@ -1,45 +1,17 @@
 @charset "ISO-8859-1";
 
-body {
-  background-color: #f2f2f2;
-}
-
-.container {
-  width: 500px;
-  margin: 0 auto;
-  padding-top: 100px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-h1 {
-  color: #333;
-}
-
-form {
-  border: 2px solid #ccc;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 80%;
-  padding: 10px;
+.adminLogin-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
   border-radius: 5px;
-  border: 1;
-  margin-bottom: 20px;
-  
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.login-btn {
+.hrLogin-btn {
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
